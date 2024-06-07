@@ -1,5 +1,6 @@
 
 import { useEffect, useState } from 'react';
+import { useLoaderData } from 'react-router-dom';
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 
 const RADIAN = Math.PI / 180;
@@ -15,20 +16,22 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
     );
 };
 
+
+
 const Statistics = () => {
     const data = [
         { name: 'Total Donation', value: 100 },
         { name: 'My Donation', value: 0 },
     ];
-
     const COLORS = ['#FF444A', '#00C49F', '#0088FE', '#FFBB28'];
 
-    const [myDonation, setMyDonation] = useState(0);
-    const totalDonation = localStorage.getItem('totalDonation');
+    const allDonations = useLoaderData([]);
+    const totalDonation = allDonations.reduce((preVal, curVal) => preVal + curVal.price, 0);
 
+    const [myDonation, setMyDonation] = useState(0);
     useEffect(() => {
         const donatedItems = JSON.parse(localStorage.getItem('donatedItems'));
-        console.log(donatedItems);
+        // console.log(donatedItems);
         if (donatedItems) {
             const myDonation = donatedItems.reduce((preValue, currentItem) => preValue + currentItem.price, 0);
             setMyDonation(myDonation);
@@ -38,7 +41,7 @@ const Statistics = () => {
     data[0].value = parseInt(totalDonation) - myDonation;
     data[1].value = myDonation;
 
-    console.log(data);
+    // console.log(data);
 
     return (
         <div className="bg-white h-[75vh] flex flex-col justify-center items-center mt-8">
