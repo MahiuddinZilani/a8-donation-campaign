@@ -1,0 +1,138 @@
+[
+  {
+    "id": "1",
+    "picture": "https://lh3.googleusercontent.com/drive-viewer/AKGpihbEpGoIvtTPnvnXPWbW_rMFiTFgeG3eTLZsz_dfKJf9bh4js3QAFcwElgjPZr36ldAnOyZQH8dPr7UajZW2WnsYrW7kAmFWdA=s2560",
+    "title": "Medical Supplies for Clinics",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_button_bg": "#0052FF",
+    "description": "Provide essential medical supplies to clinics serving underprivileged communities. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 500
+  },
+  {
+    "id": "8",
+    "picture": "https://lh3.googleusercontent.com/drive-viewer/AKGpihbELoL2lwEN_NDfeDN42Mfc3O4UzcFrv_mW7SCwITbKd3vAGeZTcOu8d8UWLWJDnVTrS6izge1X97LChw655ey4ivGjoSrw2h0=s2560",
+    "title": "Community Food Pantry Support",
+    "category": "Food",
+    "category_bg": "#A21CAF33",
+    "card_bg": "#A21CAF26",
+    "text_button_bg": "#A21CAF",
+    "description": "Contribute to local community food pantries to help those in need. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 150
+  },
+  {
+    "id": "3",
+    "picture": "https://lh3.googleusercontent.com/drive-viewer/AKGpihbnX4tqykukXXx3dc4AAVmhtI6WJ86hHqZ53Jvt-vfHu87QBbImnqZMsslVM68OE9SAElN2yDG84beDY07ikxhTV6jrzhEmCX0=s2560",
+    "title": "Warm Winter Clothes Drive",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_button_bg": "#79C23F",
+    "description": "Help keep vulnerable individuals warm during winter by donating winter clothes. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 300
+  },
+  {
+    "id": "2",
+    "picture": "https://lh3.googleusercontent.com/drive-viewer/AKGpihZzJtaRR-hHTSWqXmNrXzbk1emeeqH5BAwl6igO9coBzj5mvdzqT8IdwX7BzFfreQgNxVHP3tUdrCl49genVCi7QxlNAl3olw=s2560",
+    "title": "School Supplies for Children",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_button_bg": "#FF444A",
+    "description": "Support education by donating school supplies to children in need. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 250
+  },
+  {
+    "id": "6",
+    "picture": "https://lh3.googleusercontent.com/drive-viewer/AKGpihZzJtaRR-hHTSWqXmNrXzbk1emeeqH5BAwl6igO9coBzj5mvdzqT8IdwX7BzFfreQgNxVHP3tUdrCl49genVCi7QxlNAl3olw=s2560",
+    "title": "Scholarship Fund for Underprivileged Students",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_button_bg": "#FF444A",
+    "description": "Contribute to a scholarship fund to help underprivileged students pursue education. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 500
+  },
+  {
+    "id": "7",
+    "picture": "https://lh3.googleusercontent.com/drive-viewer/AKGpihbnX4tqykukXXx3dc4AAVmhtI6WJ86hHqZ53Jvt-vfHu87QBbImnqZMsslVM68OE9SAElN2yDG84beDY07ikxhTV6jrzhEmCX0=s2560",
+    "title": "Emergency Shelter Supplies",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_button_bg": "#79C23F",
+    "description": "Provide emergency shelter supplies for individuals affected by natural disasters. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 350
+  },
+  {
+    "id": "5",
+    "picture": "https://lh3.googleusercontent.com/drive-viewer/AKGpihbEpGoIvtTPnvnXPWbW_rMFiTFgeG3eTLZsz_dfKJf9bh4js3QAFcwElgjPZr36ldAnOyZQH8dPr7UajZW2WnsYrW7kAmFWdA=s2560",
+    "title": "Vaccination Campaign Support",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_button_bg": "#0052FF",
+    "description": "Support vaccination campaigns to ensure the health and safety of communities. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 400
+  },
+  
+  {
+    "id": "4",
+    "picture": "https://lh3.googleusercontent.com/drive-viewer/AKGpihbELoL2lwEN_NDfeDN42Mfc3O4UzcFrv_mW7SCwITbKd3vAGeZTcOu8d8UWLWJDnVTrS6izge1X97LChw655ey4ivGjoSrw2h0=s2560",
+    "title": "Nutritious Meal Kits for Families",
+    "category": "Food",
+    "category_bg": "#A21CAF33",
+    "card_bg": "#A21CAF26",
+    "text_button_bg": "#A21CAF",
+    "description": "Contribute to providing nutritious meal kits for families facing food insecurity. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 200
+  },
+  
+  
+  {
+    "id": "12",
+    "picture": "https://lh3.googleusercontent.com/drive-viewer/AKGpihbELoL2lwEN_NDfeDN42Mfc3O4UzcFrv_mW7SCwITbKd3vAGeZTcOu8d8UWLWJDnVTrS6izge1X97LChw655ey4ivGjoSrw2h0=s2560",
+    "title": "School Lunch Program",
+    "category": "Food",
+    "category_bg": "#A21CAF33",
+    "card_bg": "#A21CAF26",
+    "text_button_bg": "#A21CAF",
+    "description": "Contribute to school lunch programs to ensure students have access to nutritious meals. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 200
+  },
+  
+  {
+    "id": "9",
+    "picture": "https://lh3.googleusercontent.com/drive-viewer/AKGpihbEpGoIvtTPnvnXPWbW_rMFiTFgeG3eTLZsz_dfKJf9bh4js3QAFcwElgjPZr36ldAnOyZQH8dPr7UajZW2WnsYrW7kAmFWdA=s2560",
+    "title": "Mental Health Awareness Campaign",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_button_bg": "#0052FF",
+    "description": "Support campaigns raising awareness about mental health and well-being. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 300
+  },
+  {
+    "id": "11",
+    "picture": "https://lh3.googleusercontent.com/drive-viewer/AKGpihbnX4tqykukXXx3dc4AAVmhtI6WJ86hHqZ53Jvt-vfHu87QBbImnqZMsslVM68OE9SAElN2yDG84beDY07ikxhTV6jrzhEmCX0=s2560",
+    "title": "Hygiene Kits for Homeless Individuals",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_button_bg": "#79C23F",
+    "description": "Donate hygiene kits to support the well-being of homeless individuals. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 250
+  },
+  {
+    "id": "10",
+    "picture": "https://lh3.googleusercontent.com/drive-viewer/AKGpihZzJtaRR-hHTSWqXmNrXzbk1emeeqH5BAwl6igO9coBzj5mvdzqT8IdwX7BzFfreQgNxVHP3tUdrCl49genVCi7QxlNAl3olw=s2560",
+    "title": "Digital Learning Tools for Schools",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_button_bg": "#FF444A",
+    "description": "Provide digital learning tools to schools for a more inclusive education environment. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 400
+  }
+]
