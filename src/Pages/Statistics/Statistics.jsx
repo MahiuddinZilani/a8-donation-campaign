@@ -1,8 +1,6 @@
 
 import { useEffect, useState } from 'react';
-import { PieChart, Pie,  Cell, ResponsiveContainer } from 'recharts';
-
-
+import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }) => {
@@ -16,7 +14,6 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
         </text>
     );
 };
-
 
 const Statistics = () => {
     const data = [
