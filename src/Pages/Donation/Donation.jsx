@@ -18,7 +18,8 @@ const Donation = () => {
         }
     }, []);
 
-    console.log(isSeeAll);
+    // console.log(isSeeAll);
+    // console.log(Array.isArray(donatedItems))
 
     return (
         <div className="bg-white my-8 w-full  flex justify-center items-center">

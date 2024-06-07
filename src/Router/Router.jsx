@@ -1,6 +1,5 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, createHashRouter } from "react-router-dom";
 import MainLayout from "../Layout/MainLayout";
-// import { children } from "react";
 import Home from "../Pages/Home/Home";
 import Donation from "../Pages/Donation/Donation";
 import Statistics from "../Pages/Statistics/Statistics";
@@ -17,7 +16,7 @@ const myCreatedRouter = createBrowserRouter(
                 {
                     path: "/",
                     element: <Home />,
-                    loader: () => fetch('/public/donationItems.json')
+                    loader: () => fetch('donationItems.json')
                 },
                 {
                     path: "/donation",
@@ -26,12 +25,12 @@ const myCreatedRouter = createBrowserRouter(
                 {
                     path: "/statistics",
                     element: <Statistics></Statistics>,
-                    loader: () => fetch('/public/donationItems.json')
+                    loader: () => fetch('donationItems.json')
                 },
                 {
                     path: "/donation-details/:id",
                     element: <DonationDetails></DonationDetails>,
-                    loader: () => fetch('/public/donationItems.json')
+                    loader: () => fetch('donationItems.json')
                 }
             ],
             
