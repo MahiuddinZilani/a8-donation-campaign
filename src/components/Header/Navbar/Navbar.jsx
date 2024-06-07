@@ -13,8 +13,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-{/* <NavLink to="/messages" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>
-        Messages
-    </NavLink>; */}
