@@ -12,7 +12,6 @@ const myCreatedRouter = createBrowserRouter(
         {
             path: "/",
             element: <MainLayout></MainLayout>,
-            errorElement: <ErrorPage></ErrorPage>,
             children: [
                 {
                     path: "/",
@@ -32,7 +31,8 @@ const myCreatedRouter = createBrowserRouter(
                     element: <DonationDetails></DonationDetails>,
                     loader: () => fetch('/public/donationItems.json')
                 }
-            ]
+            ],
+            errorElement: <ErrorPage></ErrorPage>,
         }
     ]
 )
