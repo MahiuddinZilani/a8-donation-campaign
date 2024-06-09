@@ -35,14 +35,10 @@ const DonationDetailsCard = ({ donationDetails }) => {
 
     return (
         <div className="w-full bg-white mt-4">
-
-            <div className="relative flex flex-col items-center justify-center ">
-                <img src={picture} alt={category} className="relative w-full h-[65vh] bg-white" />
-                <div className="absolute inset-x-0 bottom-0 h-24 bg-black opacity-50"></div>
+            <div className="relative mx-4 md:mx-auto h-[50vh] md:h-[75vh] flex flex-col items-center justify-center ">
+                <img src={picture} alt={category} className="relative w-full h-full bg-white" />
+                <div className="absolute inset-x-0 bottom-0 h-24 bg-black opacity-50 "></div>
                 <div className="absolute inset-x-0 bottom-0 h-24 z-10 flex items-center ml-10">
-                    {/* <div className="flex absolute rounded-lg px-6 py-3 w-max text-2xl" style={{ backgroundColor: `${text_button_bg}` }}>
-                            <h4 className="text-white">Donate ${price}</h4>
-                        </div> */}
                     <button onClick={handleDonatedPrice} className="text-white rounded-lg px-6 py-3" style={{ backgroundColor: `${text_button_bg}` }}>Donate ${price}</button>
                 </div>
             </div>
