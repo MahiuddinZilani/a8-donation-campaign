@@ -17,7 +17,7 @@ const DonationDetailsCard = ({ donationDetails }) => {
                 localStorage.setItem('donatedItems', JSON.stringify(donatedItemsArray));
                 alert('Donation Added');
             }
-            else{
+            else {
                 alert('Already Exist')
             }
         }
@@ -35,14 +35,12 @@ const DonationDetailsCard = ({ donationDetails }) => {
             <div className="relative flex flex-col items-center justify-center ">
                 <img src={picture} alt={category} className="relative w-full h-[65vh] bg-white" />
                 <div className="absolute inset-x-0 bottom-0 h-24 bg-black opacity-50"></div>
-                <Link>
-                    <div className="absolute inset-x-0 bottom-0 h-24 z-10 flex items-center ml-10">
-                        {/* <div className="flex absolute rounded-lg px-6 py-3 w-max text-2xl" style={{ backgroundColor: `${text_button_bg}` }}>
+                <div className="absolute inset-x-0 bottom-0 h-24 z-10 flex items-center ml-10">
+                    {/* <div className="flex absolute rounded-lg px-6 py-3 w-max text-2xl" style={{ backgroundColor: `${text_button_bg}` }}>
                             <h4 className="text-white">Donate ${price}</h4>
                         </div> */}
-                        <button onClick={handleDonatedPrice} className="text-white rounded-lg px-6 py-3" style={{ backgroundColor: `${text_button_bg}` }}>Donate ${price}</button>
-                    </div>
-                </Link>
+                    <button onClick={handleDonatedPrice} className="text-white rounded-lg px-6 py-3" style={{ backgroundColor: `${text_button_bg}` }}>Donate ${price}</button>
+                </div>
             </div>
             <div className="mt-8 px-4">
                 <div className="text-3xl font-bold">

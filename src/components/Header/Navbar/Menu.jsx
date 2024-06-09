@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Menu = () => {
     return (
         <div>
-            <ul className="flex justify-evenly gap-6">
+            <ul className="flex justify-evenly gap-8 font-bold">
                 <li>
                     <NavLink to="./" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""}>Home</NavLink>
                 </li>

@@ -6,7 +6,7 @@ const DonationViewCard = ({ donationView }) => {
     const {id, picture, title, category, category_bg, card_bg, text_button_bg } = donationView || {};
 
     return (
-        <div>
+        <div className="w-72 lg:w-64 md:mx-auto">
             <Link to={`/donation-details/${id}`}>
                 <div className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-clip-border shadow-md">
                     <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
