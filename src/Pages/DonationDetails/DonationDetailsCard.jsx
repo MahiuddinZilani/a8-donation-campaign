@@ -1,5 +1,6 @@
 // import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
+import swal from 'sweetalert';
 
 const DonationDetailsCard = ({ donationDetails }) => {
 
@@ -15,16 +16,19 @@ const DonationDetailsCard = ({ donationDetails }) => {
             if (!isExist) {
                 donatedItemsArray.push(...donatedItems, donationDetails);
                 localStorage.setItem('donatedItems', JSON.stringify(donatedItemsArray));
-                alert('Donation Added');
+                // alert('Donation Added');
+                swal("Congratulations!", "Thanks for Your Donation!", "success");
             }
             else {
-                alert('Already Exist')
+                // alert('Already Exist')
+                swal("Hey!", "You have already donated here!", "info");
             }
         }
         else {
             donatedItemsArray.push(donationDetails);
             localStorage.setItem('donatedItems', JSON.stringify(donatedItemsArray));
-            alert('Donation Added');
+            // alert('Donation Added');
+            swal("Congratulations!", "Thanks for Your Donation!", "success");
         }
     }
 
