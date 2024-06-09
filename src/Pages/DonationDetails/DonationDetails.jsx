@@ -3,11 +3,9 @@ import { useLoaderData, useParams } from "react-router-dom";
 import DonationDetailsCard from "./DonationDetailsCard";
 
 const DonationDetails = () => {
-
-    const [donationDetails, setDonationDetails] = useState({});
-
-    const { id } = useParams();
     const donationItems = useLoaderData();
+    const { id } = useParams();
+    const [donationDetails, setDonationDetails] = useState({});
 
     useEffect(() => {
         const findDonationItem = donationItems?.find(donationItem => donationItem.id === id)
